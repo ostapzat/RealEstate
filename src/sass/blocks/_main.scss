@@ -79,10 +79,16 @@
     flex-direction: row;
     color: #ff5a3c;
     margin-right: 1000px;
+    a {
+      text-decoration: none;
+      color: #ff5a3c;
+      a:hover {
+        text-decoration: none;
+      }
+    }
   }
 
   &__arrow {
-    display: flex;
   }
 
   &__text-container {
