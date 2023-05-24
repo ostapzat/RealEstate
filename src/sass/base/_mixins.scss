@@ -1,0 +1,177 @@
+@media (max-width: 1025px) {
+  .main {
+    .nav {
+      &__logo {
+        display: inline-flex;
+        font-weight: 900;
+        padding-left: 41px;
+        margin-top: -6px;
+        font-size: 28px;
+        padding-right: 98px;
+      }
+      &__button {
+        margin-left: 35px;
+      }
+    }
+
+    &__text {
+      position: absolute;
+      width: 253px;
+    }
+    &__start {
+      width: 100px;
+    }
+    &__arrow {
+      display: none;
+    }
+  }
+}
+@media (max-width: 769px) {
+  .hamburger {
+    display: inline-flex;
+  }
+  .main {
+    .nav {
+      &__logo {
+        padding-right: 0;
+      }
+
+      ul {
+        display: none;
+        padding-bottom: 10px;
+      }
+
+      &__button {
+        margin-left: auto;
+        margin-right: 20px;
+      }
+    }
+
+    &__header {
+      font-size: 36px;
+      width: 100%;
+      margin-top: 100px;
+      text-align: center;
+    }
+
+    &__subheader {
+      width: 100%;
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    &__start {
+      display: block;
+      margin: 0 auto;
+      margin-left: 335px;
+      margin-top: 50px;
+      margin-bottom: 20px;
+      font-weight: 700;
+      color: rgb(255, 255, 255);
+    }
+
+    &__arrow {
+      display: none;
+      margin: 0 auto;
+    }
+
+    &__text {
+      position: static;
+      width: 300px;
+      margin-right: 200px;
+      height: auto;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      padding: 20px;
+      font-weight: 700;
+      background: rgba(4, 2, 21, 0.8);
+    }
+  }
+  @media (max-width: 426px) {
+    .hamburger {
+      top: -50px;
+    }
+    .main {
+      &__header {
+        font-size: 24px;
+        margin-top: 50px;
+      }
+
+      &__subheader {
+        font-size: 14px;
+        margin-top: 20px;
+      }
+
+      &__start {
+        width: 200px;
+        font-size: 25px;
+        padding-bottom: 20px;
+        margin-left: 146px;
+      }
+      &__arrow {
+        display: none;
+      }
+      &__text {
+        font-size: 14px;
+        padding: 10px;
+        margin-right: 41px;
+        background: rgba(255, 255, 255, 0.8);
+        color: black;
+      }
+    }
+  }
+  @media (max-width: 376px) {
+    .hamburger {
+    }
+    .main {
+      &__start {
+        font-size: 25px;
+        padding-bottom: 20px;
+        margin-left: 118px;
+      }
+      &__text {
+        font-size: 14px;
+        padding: 10px;
+        margin-right: 17px;
+      }
+      .nav {
+        &__logo {
+          display: inline-flex;
+          font-weight: 900;
+          padding-left: 9px;
+          font-size: 17px;
+        }
+        &__button {
+          width: 87px;
+          height: 27px;
+
+          font-size: 11px;
+        }
+      }
+    }
+  }
+  @media (max-width: 376px) {
+    .hamburger {
+      top: -14px;
+      left: 60px;
+    }
+  }
+  @media (max-width: 321px) {
+    .main {
+      &__start {
+        font-size: 25px;
+        padding-bottom: 20px;
+        margin-left: 93px;
+      }
+      &__text {
+        font-size: 14px;
+        padding: 10px;
+        margin-right: -1px;
+      }
+    }
+    .hamburger {
+      top: -14px;
+      left: 7px;
+    }
+  }
+}
