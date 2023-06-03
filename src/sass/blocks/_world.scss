@@ -1,9 +1,23 @@
 .world {
   height: 1066px;
+  &__smallimg {
+    display: none;
+    position: relative;
+    top: -500px;
+  }
+  &__smallimgblock {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
+  &__imgblock {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
   &__img {
-    position: absolute;
-    left: 815px;
-    top: 1100px;
+    position: relative;
+    top: -550px;
   }
   &__button {
     width: 202px;

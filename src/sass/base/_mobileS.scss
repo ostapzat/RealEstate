@@ -1,0 +1,64 @@
+@media (max-width: 321px) {
+  .main .nav__logo {
+    &__logo {
+      padding-left: 0px;
+      margin-top: 4px;
+      font-size: 23px;
+      span {
+        margin-left: -8px;
+      }
+    }
+    .hamburger {
+      top: -14px;
+      left: 8px;
+    }
+  }
+  .world {
+    &__logos {
+      padding-top: 181px;
+    }
+    &__header {
+      width: 292px;
+    }
+    &__subheader {
+      width: 290px;
+    }
+
+    &__rate-item {
+      padding-right: 8px;
+    }
+  }
+}
+.accordion {
+  padding-top: 20px;
+  padding-left: 4px;
+  &-item {
+    padding-left: 66px;
+  }
+}
+.search {
+  height: 339px;
+  top: 636px;
+  left: 2%;
+  .block {
+    height: 339px;
+    top: 636px;
+    left: 2%;
+  }
+  &__button {
+    margin: 0 auto;
+    display: block;
+  }
+}
+.main {
+  &__start {
+    font-size: 25px;
+    padding-bottom: 20px;
+    margin-left: 93px;
+  }
+  &__text {
+    font-size: 14px;
+    padding: 10px;
+    margin-right: -1px;
+  }
+}

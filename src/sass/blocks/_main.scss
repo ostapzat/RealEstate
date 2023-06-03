@@ -9,7 +9,8 @@
     height: 73px;
     background: #ffffff;
     border-radius: 5px;
-
+    display: flex;
+    flex-wrap: wrap;
     &__logo {
       display: inline-flex;
       font-weight: 900;
@@ -86,9 +87,6 @@
         text-decoration: none;
       }
     }
-  }
-
-  &__arrow {
   }
 
   &__text-container {

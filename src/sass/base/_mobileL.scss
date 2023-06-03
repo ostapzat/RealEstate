@@ -1,0 +1,99 @@
+@media (max-width: 426px) {
+  .search {
+    width: 300px;
+    height: 359px;
+    top: 613px;
+    left: 15%;
+    &__button {
+      margin-left: 40px;
+    }
+    .block {
+      width: 300px;
+      height: 300px;
+    }
+  }
+  .world {
+    &__subheader {
+      width: 392px;
+    }
+    &__rate-item {
+      padding-right: 52px;
+    }
+
+    &__header {
+      font-size: 28px;
+      width: 397px;
+      padding-top: 80px;
+    }
+    &__button {
+      margin: 0 auto;
+      display: block;
+      margin-bottom: 20px;
+    }
+    &__smallimg {
+      position: static;
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  .accordion {
+    justify-content: normal;
+    flex-wrap: wrap;
+    padding-left: 70px;
+    flex-direction: column;
+  }
+  .accordion-item {
+    flex-basis: 33.33%;
+    padding: 0;
+    padding-bottom: 15px;
+  }
+  .hamburger {
+    top: -50px;
+  }
+
+  .main {
+    &__text-container {
+      .main__text {
+        margin-right: 31px;
+      }
+    }
+
+    .nav {
+      .hamburger {
+        left: 319px;
+      }
+      &__logo {
+        span {
+          margin-left: -5px;
+        }
+      }
+    }
+    &__header {
+      font-size: 24px;
+      margin-top: 50px;
+    }
+
+    &__subheader {
+      font-size: 14px;
+      margin-top: 20px;
+    }
+
+    &__start {
+      width: 200px;
+      font-size: 25px;
+      padding-bottom: 20px;
+      margin-left: 146px;
+    }
+    &__arrow {
+      display: none;
+    }
+    &__text {
+      font-size: 14px;
+      padding: 10px;
+      margin-right: 41px;
+      background: rgba(255, 255, 255, 0.8);
+      color: black;
+    }
+  }
+}

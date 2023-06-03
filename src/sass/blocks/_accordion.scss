@@ -2,7 +2,7 @@
   padding-left: 20px;
   padding-top: 60px;
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-around;
   &__header {
     font-weight: 600;
     font-size: 18px;
