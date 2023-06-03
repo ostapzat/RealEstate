@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Noto+Sans:wght@700&family=Poppins:wght@300;400;800&display=swap");
 * {
+  // border: 1px solid red;
   margin: 0;
   padding: 0 auto;
 }
@@ -35,6 +36,8 @@ body {
 }
 
 @import "blocks/main";
-
+@import "blocks/world";
+@import "blocks/search";
 @import "blocks/hamburger";
+@import "blocks/accordion";
 @import "base/mixins";

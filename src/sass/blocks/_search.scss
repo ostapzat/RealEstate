@@ -1,0 +1,22 @@
+.search {
+  position: absolute;
+  top: 700px;
+  width: 918px;
+  height: 151px;
+  left: 20%;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 14px 129px -29px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  .block {
+    width: 895px;
+    height: 118px;
+    
+    background: #ffffff;
+    border-radius: 10px;
+  }
+  &__button {
+    position: absolute;
+    top: 60px;
+    left: 83%;
+  }
+}

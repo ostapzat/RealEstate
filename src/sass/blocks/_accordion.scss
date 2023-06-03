@@ -1,0 +1,38 @@
+.accordion {
+  padding-left: 20px;
+  padding-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  &__header {
+    font-weight: 600;
+    font-size: 18px;
+
+    color: #000000;
+  }
+}
+
+.arrow_down {
+  padding-left: 10px;
+}
+.accordion-item {
+  flex-basis: 33.33%;
+  padding: 0;
+}
+
+.accordion-title {
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #9f9f9f;
+}
+
+.accordion-content {
+  display: none;
+  margin-top: 10px;
+}
+
+.active {
+  display: block;
+}
