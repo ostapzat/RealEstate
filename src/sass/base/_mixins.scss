@@ -43,6 +43,17 @@
     }
   }
 }
+@media (max-width: 1025px) {
+  .world__smallimg {
+    display: block;
+  }
+}
+@media (max-width: 966px) {
+  .main .nav__button {
+    margin-left: 40px;
+  }
+}
+
 @media (max-width: 953px) {
   .main .nav__logo {
     padding-right: 0px;
@@ -58,43 +69,42 @@
   }
 }
 @media (max-width: 918px) {
-  body {
-    width: 100%;
-  }
   .search__block {
-    
     .search {
-      // left: 8%;
+      width: auto;
       &__button {
         width: 94px;
         height: 39px;
       }
       .block {
-        width: 663px;
+        width: 700px;
       }
     }
   }
   .world {
     &__rate {
-      margin-left: 150px;
+      justify-content: center;
+      margin-bottom: 20px;
     }
     &__subheader {
-      margin-left: 125px;
+      margin: 0 auto;
       text-align: center;
     }
     &__header {
-      margin-left: 107px;
+      margin: 0 auto;
       text-align: center;
     }
     &__button {
-      margin-left: 265px;
+      margin: 0 auto;
       margin-bottom: 20px;
+      display: block;
     }
 
     &__img {
       display: none;
     }
     &__smallimg {
+      margin: 0 auto;
       position: static;
       display: block;
       width: 300px;
@@ -113,6 +123,20 @@
     display: inline-flex;
   }
   .main {
+    &__start {
+      display: flex;
+      justify-content: center;
+      margin-right: 0;
+    }
+    &__text-container {
+      display: flex;
+      justify-content: center;
+      .main__text {
+        display: flex;
+        justify-content: center;
+        margin-right: 0;
+      }
+    }
     .nav {
       &__logo {
         padding-right: 0;
@@ -141,17 +165,6 @@
       margin-top: 20px;
       text-align: center;
     }
-
-    &__start {
-      display: block;
-      margin: 0 auto;
-      margin-left: 335px;
-      margin-top: 50px;
-      margin-bottom: 20px;
-      font-weight: 700;
-      color: rgb(255, 255, 255);
-    }
-
     &__arrow {
       display: none;
       margin: 0 auto;
@@ -199,9 +212,7 @@
       text-align: start;
       margin-left: 0;
     }
-    &__rate {
-      margin-left: 0;
-    }
+
     &__button {
       margin: 0 auto;
       display: block;
@@ -256,12 +267,6 @@
       margin-top: 20px;
     }
 
-    &__start {
-      width: 200px;
-      font-size: 25px;
-      padding-bottom: 20px;
-      margin-left: 146px;
-    }
     &__arrow {
       display: none;
     }
@@ -298,9 +303,7 @@
       text-align: start;
       margin-left: 0;
     }
-    &__rate {
-      margin-left: 0;
-    }
+
     &__rate-item {
       padding-right: 33px;
       padding-bottom: 15px;
@@ -361,9 +364,7 @@
       text-align: start;
       margin-left: 0;
     }
-    &__rate {
-      margin-left: 0;
-    }
+
     #smallimg {
       width: 100%;
       height: 400px;
