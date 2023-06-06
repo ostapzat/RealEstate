@@ -37,7 +37,7 @@
         display: none;
       }
     }
-    &__smallimgblock {
+    &__imgblock {
       .world__smallimg {
         display: flex;
       }
@@ -196,6 +196,9 @@
       font-weight: 700;
       background: rgba(4, 2, 21, 0.8);
     }
+  }
+  .propety__button {
+    font-size: 11px;
   }
 }
 @media (max-width: 762px) {
@@ -364,7 +367,14 @@
     }
   }
 }
-@media (max-width: 405px) {
+@media (max-width: 407px) {
+  .propety__button {
+    font-size: 9px;
+    margin-left: 50px;
+  }
+  .propety .card {
+    min-height: 477px;
+  }
   .main .nav .hamburger {
     left: 40px;
   }
@@ -410,6 +420,7 @@
     }
     &__img {
       display: none;
+      top: 10px;
     }
     &__subheader {
       width: 288px;
