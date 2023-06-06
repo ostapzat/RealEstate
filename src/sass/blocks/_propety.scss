@@ -1,0 +1,125 @@
+.propety {
+  &__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  &__button {
+    width: 96px;
+    height: 39px;
+    margin-left: 30%;
+    margin-top: 10px;
+  }
+  .adams__info {
+    padding-top: 10px;
+    padding-left: 10px;
+    display: flex;
+    .adams {
+      display: flex;
+      flex-direction: row;
+      &__name {
+        display: flex;
+        font-weight: 700;
+        font-size: 14px;
+        align-items: center;
+        color: #000000;
+      }
+    }
+  }
+  hr {
+    border: 1px solid rgba(46, 193, 172, 0.26);
+    width: 300px;
+    margin: 0 auto;
+  }
+  &__header {
+    font-weight: 800;
+    font-size: 48px;
+    padding-top: 42px;
+    text-align: center;
+
+    color: #000000;
+  }
+  &__subheader {
+    font-weight: 400;
+    font-size: 18px;
+    padding-top: 9px;
+    padding-bottom: 44px;
+
+    text-align: center;
+
+    color: #6b6b6b;
+  }
+  .card {
+    margin-bottom: 59px;
+    width: 370px;
+    height: 500px;
+    background: #ffffff;
+    box-shadow: 0px 28px 243px -79px rgba(0, 0, 0, 0.16);
+    border-radius: 15px;
+    &__secondblock {
+      display: flex;
+      justify-content: space-around;
+      flex-direction: row;
+      .card__text-item {
+        padding-top: 20px;
+        font-weight: 400;
+        font-size: 14px;
+
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.0125em;
+
+        color: #768192;
+        padding-bottom: 20px;
+      }
+    }
+    &__prise {
+      font-weight: 800;
+      font-size: 22px;
+      color: #000000;
+    }
+    &__img {
+      display: flex;
+      justify-content: center;
+    }
+    &__firstblock {
+      display: flex;
+      justify-content: space-around;
+      .card__family-block {
+        border-radius: 5.03459px;
+        background: #fef2e4;
+        display: flex;
+        align-items: center;
+        .card__family {
+          font-weight: 400;
+          font-size: 10.0692px;
+          display: flex;
+          align-items: center;
+          text-align: center;
+          padding: 10px;
+          /* Supporting 3 / Orange 100% :: #FF8700 */
+
+          color: #ff8700;
+        }
+      }
+      .card__networks-block {
+        background: #b9e7f0;
+        border-radius: 5.03459px;
+        display: flex;
+        align-items: center;
+        .card__networks {
+          font-weight: 400;
+          font-size: 10.0692px;
+          /* or 16px */
+          padding: 10px;
+          display: flex;
+          align-items: center;
+          text-align: center;
+          justify-content: center;
+
+          color: #1b70bb;
+        }
+      }
+    }
+  }
+}
