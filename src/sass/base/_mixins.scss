@@ -230,13 +230,24 @@
 }
 @media (max-width: 525px) {
   .hamburger {
-    left: 70px;
+    left: 47px;
   }
   .world__header {
     width: 466px;
   }
+  .world__subheader {
+    width: 397px;
+  }
+  .world__smallimg {
+    width: auto;
+  }
   .world__rate-item {
     padding-right: 34px;
+  }
+}
+@media (max-width: 490px) {
+  .hamburger {
+    left: 20px;
   }
 }
 @media (max-width: 461px) {
@@ -266,7 +277,19 @@
     }
   }
 
+  .world__smallimg {
+    margin: 0 auto;
+    position: static;
+    display: block;
+    width: auto;
+  }
+  #smallimg {
+    width: 298px;
+  }
   .world {
+    &__imgblock {
+      padding-right: 0;
+    }
     &__subheader {
       width: 288px;
       margin-left: 0;
@@ -341,9 +364,27 @@
     }
   }
 }
+@media (max-width: 405px) {
+  .main .nav .hamburger {
+    left: 40px;
+  }
+}
 @media (max-width: 412px) {
   .main .nav {
     width: 103%;
+  }
+}
+@media (max-width: 409px) {
+  #smallimg {
+    width: 301px;
+  }
+  .hamburger {
+    left: 40px;
+    top: -18px;
+  }
+  .main .nav__logo {
+    padding-left: 0px;
+    font-size: 22px;
   }
 }
 @media (max-width: 376px) {
@@ -389,7 +430,7 @@
     .nav {
       .hamburger {
         top: -14px;
-        left: 60px;
+        left: 30px;
       }
       &__logo {
         display: inline-flex;
@@ -408,6 +449,19 @@
   // .search {
   //   left: 10%;
   // }
+}
+@media (max-width: 365px) {
+  .hamburger {
+    left: 40px;
+  }
+}
+@media (max-width: 336px) {
+  .world__rate {
+    padding-left: 30px;
+  }
+  .world__rate-item {
+    padding-right: 9px;
+  }
 }
 @media (max-width: 321px) {
   .world {
@@ -495,6 +549,20 @@
     }
   }
 }
+@media (max-width: 298px) {
+  .world__header {
+    font-size: 26px;
+  }
+  .world__rate {
+    padding-left: 0px;
+  }
+  .world__subheader {
+    width: 267px;
+  }
+  .search__block .search .block {
+    width: 258px;
+  }
+}
 @media (max-width: 281px) {
   #smallimg {
     height: 269px;
@@ -521,5 +589,10 @@
       width: 235px;
       font-size: 14px;
     }
+  }
+}
+@media (max-width: 339px) {
+  .hamburger {
+    left: 23px;
   }
 }
