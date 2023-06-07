@@ -6,6 +6,7 @@
 }
 body {
   margin: 0;
+  overflow-x: hidden;
   padding: 0;
   font-family: "Lato", sans-serif;
 }
@@ -42,6 +43,8 @@ body {
 @import "blocks/hamburger";
 @import "blocks/accordion";
 @import "blocks/living";
+@import "blocks/reviews";
+@import "blocks/carousel";
 @import "base/_mixins";
 // @import "base/laptop";
 // @import "base/laptopL";

@@ -253,14 +253,18 @@
 @media (max-width: 525px) {
   .living {
     #livingimg {
-      width: 412px;
+      width: 293px;
+      height: 325px;
     }
   }
   .hamburger {
     left: 47px;
   }
   .world__header {
-    width: 466px;
+    width: 355px;
+  }
+  .world__rate-item {
+    padding-right: 16px;
   }
   .world__subheader {
     width: 397px;
@@ -269,7 +273,7 @@
     width: auto;
   }
   .world__rate-item {
-    padding-right: 34px;
+    padding-right: 8px;
   }
 }
 @media (max-width: 490px) {
@@ -458,7 +462,7 @@
     }
 
     &__rate-item {
-      padding-right: 33px;
+      padding-right: 8px;
       padding-bottom: 15px;
     }
   }
@@ -509,11 +513,6 @@
   }
 }
 @media (max-width: 321px) {
-  .living {
-    #livingimg {
-      width: 313px;
-    }
-  }
   .world {
     // &__smallimg {
     //   margin-left: -10px;

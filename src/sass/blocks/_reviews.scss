@@ -1,0 +1,29 @@
+.reviews {
+  height: 823px;
+  width: 100%;
+
+  background: url("../../img/Group 1000003428 review .png") no-repeat center center ;
+  &__header {
+    padding-top: 64px;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 70px;
+    /* identical to box height, or 146% */
+
+    text-align: center;
+
+    color: #000000;
+  }
+  &__subheader {
+    padding-top: 9px;
+    padding-bottom: 43px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    /* or 29px */
+
+    text-align: center;
+
+    color: #6b6b6b;
+  }
+}
